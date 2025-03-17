@@ -1,0 +1,14 @@
+# .streamlit/config.toml
+
+[theme]
+base = "dark"  # Use dark mode
+primaryColor = "#2E86C1"  # Custom primary color
+backgroundColor = "#1E1E1E"  # Custom background color
+secondaryBackgroundColor = "#2E2E2E"  # Custom secondary background color
+textColor = "#FFFFFF"  # Custom text color
+font = "sans serif"  # Custom font
+
+[server]
+headless = true  # Run in headless mode (no browser)
+port = 8501  # Default port
+enableCORS = false  # Disable CORS
